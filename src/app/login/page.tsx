@@ -27,10 +27,6 @@ export default function LoginPage() {
         transition={{ duration: 0.65, ease: "easeOut" }}
         className="relative z-10 w-full max-w-md"
       >
-        {/* Required label  */}
-        <p className="text-center text-xs font-bold tracking-widest uppercase text-[#F472B6] mb-6">
-          [Login] Page
-        </p>
 
         {/*  Card  */}
         <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl shadow-pink-100 border border-pink-50">
