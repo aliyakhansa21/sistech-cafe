@@ -1,6 +1,28 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #FF74B1; 
-  --color-primary-hover: #E66895; 
+  --color-primary: #F472B6;
+  --color-primary-hover: #ec4899;
+  --color-primary-light: #fdf2f8;
+  --color-cream: #fffbf7;
+  --color-dark: #1a1a2e;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+/*  Base resets  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #fffbf7;
+  color: #1a1a2e;
+  -webkit-font-smoothing: antialiased;
 }
